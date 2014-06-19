@@ -13,6 +13,8 @@ function OnStart()
  app.PreventScreenLock( true );
  
  //Main Layout
- lay = app.CreateLayout( "Linear", "FillXY" );
-
+ lay = app.CreateLayout( "linear", "FillXY" );
+ 
+ 
+ //this isnt done yet
 
