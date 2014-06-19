@@ -1,0 +1,18 @@
+//Init background var
+var backGroundY = 0;
+var backGroundShift = 0.005;
+
+//Character Var
+var charX=0.5, charY=0.8;
+var charW=0.16, charH=0.115;
+
+function OnStart()
+{
+
+ app.SetOrientation( "Portrait" );
+ app.PreventScreenLock( true );
+ 
+ //Main Layout
+ lay = app.CreateLayout( "Linear", "FillXY" );
+
+
