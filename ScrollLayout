@@ -3,8 +3,8 @@ var backGroundY = 0;
 var backGroundShift = 0.005;
 
 //Character Var
-var charX=0.5, charY=0.8;
-var charW=0.16, charH=0.115;
+var charX = 0.5, charY = 0.8;
+var charW = 0.16, charH = 0.115;
 
 function OnStart()
 {
@@ -16,5 +16,16 @@ function OnStart()
  lay = app.CreateLayout( "linear", "FillXY" );
  
  
- //this isnt done yet
+ //This space reserved for blank canvas
+ 
+ //Background_Image
+ imgBackground = app.CreateImage("insertfilehere.jpg")
+ 
+ //App_layout
+ app.AddLayout( lay );
+ 
+ app.SetDebugEnabled( false );
+ 
+ //Game Frame
+ timer = setInterval( DrawFrame, 1000/25 );
 
