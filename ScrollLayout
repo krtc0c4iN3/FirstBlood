@@ -36,7 +36,7 @@ function OnStart()
  app.SetDebugEnabled( false );
  
  //Game Frame
- timer = setInterval( DrawFrame, 1000/25 );
+ timer = setInterval( DrawFrame, 1000/30 );
  }
  
  //Game graphics update
